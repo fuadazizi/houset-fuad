@@ -1,0 +1,31 @@
+.borderline-styling {
+	border: 1px solid #e4e7ec;
+	width: 1265px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (max-width: 1400px) {
+    .borderline-styling {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+	.borderline-styling {
+		border: 2px solid #e4e7ec;
+		width: 965px;
+	}
+}
+
+@media screen and (max-width: 987px) {
+    .borderline-styling {
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 762px) {
+    .borderline-styling {
+        width: 550px;
+    }
+}

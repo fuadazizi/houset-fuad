@@ -1,0 +1,12 @@
+# dependencies
+node_modules
+Pengaturan Perapihan Kode.docx
+installed library.txt
+package.json
+build/Build/Web.wasm
+build/Build/Web.loader.js
+build/Build/Web.framework.js
+build/Build/Web.data
+
+public/Build
+.env

@@ -1,0 +1,58 @@
+.package-card-container {
+	width: 350px;
+	height: 574px;
+	background: #f1fffb;
+	border: 1px solid #055053;
+	border-radius: 30px;
+}
+
+.package-card-container h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #055053;
+
+    margin-top: 20px;
+    margin-bottom: -5px;
+}
+
+.package-card-container h2 {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 64px;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #023F47;
+}
+
+/* ================================= BENEFIT ================================ */
+
+.package-benefit-group {
+    /* margin-left: 0px auto; */
+}
+
+.package-detail p {
+    width: 220px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    margin-left: 45px;
+}
+
+.package-detail .yes {
+    color: #389C1A;
+}
+
+.package-detail .no {
+    color: #98A2B3;
+}
+
+.package-button-select {
+    margin-top: 25px;
+}
+
+.package-button-select button {
+    width: 100%;
+}

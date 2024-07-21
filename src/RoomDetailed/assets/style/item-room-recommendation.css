@@ -1,0 +1,16 @@
+.room-product-recommendation, .room-design-recommendation {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.room-product-recommendation .product-auto-suggest, .room-design-recommendation .product-auto-suggest {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+.room-product-recommendation .product-auto-suggest .see-more-container, .room-design-recommendation .product-auto-suggest .see-more-container {
+  margin: 0;
+}/*# sourceMappingURL=item-room-recommendation.css.map */

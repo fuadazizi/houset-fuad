@@ -1,0 +1,64 @@
+.search-form {
+	margin: auto;
+    margin-top: 24px;
+	width: auto;
+}
+
+.search-form-input {
+    /* background-image: url('../image/kursi.png'); */
+
+	width: auto;
+	height: 44px;
+	background: #f9f9f9;
+	border: 1px solid #e6e6e6;
+	box-sizing: border-box;
+	border-radius: 30px;
+	padding: 18px;
+}
+
+.search-form-input:focus {
+    outline: none;
+}
+
+.search-form-icon {
+    /* display:block;  */
+    position: relative;
+    right:43px;
+    cursor:pointer;
+}
+
+/* @media screen and (max-width: 1400px), @media screen and (max-width: 1200px) {
+    .search-form-input {
+        width: 890px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .search-form-input {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .search-form-input {
+        width: 470px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .search-form-input {
+        width: 300px;
+    }    
+}
+
+@media screen and (max-width: 400px) {
+    .search-form-input {
+        width: 200px;
+    }    
+}
+
+@media screen and (max-width: 300px) {
+    .search-form-input {
+        width: 150px;
+    }       
+} */

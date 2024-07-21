@@ -1,0 +1,90 @@
+.primary-button, .secondary-button, .action-button {
+    /* Button Box */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+	height: 44px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+	/* Button Text */
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+
+    /* Animation */
+    transition: all 0.3s ease 0s;
+	text-decoration: none;
+}
+
+.primary-button, .secondary-button, .action-button:hover {
+	cursor: pointer;
+}
+
+/* ========================== primary ========================== */
+
+.primary-button {
+    /* Primary, background button */
+	background: #055053;
+	border-radius: 8px;
+	border-style: none;
+
+	/* Primary, text color */
+	color: #ffffff;
+}
+
+.primary-button:hover {
+    /* Primary, background button */
+    background: #05696d;
+    transition: all 0.3s ease 0s;
+}
+
+/* ========================== secondary ========================== */
+
+.secondary-button {
+    margin-right: 24px;
+
+    /* Secondary, background button */
+	background: #c8f6e9;
+	border-radius: 8px;
+	border-style: none;
+
+	/* Secondary, text color */
+	color: #055053;
+}
+
+.secondary-button:hover {
+    /* Secondary, background button */
+    background: #d9f7f9;
+    transition: all 0.3s ease 0s;
+}
+
+/* ========================== action ========================== */
+
+.action-button {	
+	background: #FFFFFF;
+
+	border: 1px solid #055053;
+	box-sizing: border-box;
+	border-radius: 8px;
+
+	/* Action, text color */	
+	color: #055053;
+}
+
+.action-button:hover {
+	/* Action, background button */
+	/* background: rgb(246, 255, 255); */
+	border: 1px solid #158c91;
+	transition: all 0.3s ease 0s;
+}
+
+button:disabled:hover,
+button[disabled] {
+	/* disable if every button disabled=true */
+	background: #F2F4F7;
+	border-radius: 8px;
+	color: #98A2B3;
+}

@@ -1,0 +1,117 @@
+.invoice-container {
+	/* center the div */
+	margin: 0 auto;
+	width: fit-content;
+
+	margin-top: 128px;
+}
+
+.invoice-deadline,
+.invoice-payment,
+.invoice-info {
+	width: 730px;
+	margin-bottom: 35px;
+
+	background: #ffffff;
+	box-shadow: 0px 12px 24px rgba(44, 39, 56, 0.02),
+		0px 32px 64px rgba(44, 39, 56, 0.04);
+	border-radius: 24px;
+	border-style: 1px solid #ad8d8d;
+}
+
+/* Invoice deadline - 1 */
+
+.invoic-deadline-container {
+	/* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.invoice-deadline p {
+	text-align: center;
+}
+
+.inv-deadline-text {
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.75);
+}
+
+.inv-deadline-text2 {
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 25px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.45);
+}
+
+.inv-deadline-time {
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	color: #e13b11;
+}
+
+/* Invoice payment - 2 & Invoice info - 3 */
+
+.inv-part-title {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	color: #012231;
+}
+
+.inv-part-subtitle {
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.45);
+}
+
+.inv-part-content {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	color: rgba(0, 0, 0, 0.75);
+
+	margin-bottom: 24px;
+}
+
+.inv-payment-action {
+	text-align: right;
+}
+
+.inv-payment-action {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: right;
+	color: #055053;
+}
+
+.inv-info-subtitle {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #667085;
+}
+
+.inv-info-subtitle-alt {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #667085;
+}
+
+.invoice-button-confirm {
+	width: 350px;
+	margin-inline: auto;
+}
+
+.invoice-button-col button {
+	width: 100%;
+	margin-bottom: 35px;
+}

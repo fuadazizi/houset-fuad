@@ -1,0 +1,13 @@
+1. Pastikan node.js versi terbaru sudah terinstall (https://nodejs.org/en/)
+2. Open terminal pada folder program (tempat file ini berada)
+3. Ketikkan command "npm install", tunggu hingga selesai
+4. Ketikkan command "npm start", tunggu hingga selesai
+5. Halaman browser akan terbuka otomatis, jika tidak, ketikkan alamat "localhost:3000" pada URL
+
+#####
+
+1. Make sure the latest version of node.js is installed (https://nodejs.org/en/)
+2. Open a terminal in the program folder (where this file is located)
+3. Type the command "npm install", wait for it to finish
+4. Type the command "npm start", wait for it to finish
+5. The browser page will open automatically, if not, type the address "localhost:3000" in the URL

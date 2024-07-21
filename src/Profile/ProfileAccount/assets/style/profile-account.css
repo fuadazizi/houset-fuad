@@ -1,0 +1,219 @@
+.account-body-card {
+    flex-basis: 25%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+.account-body-card .card {
+    height: 214px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    padding: 2em 0;
+    gap: 1em;
+}
+.card img {
+    height: 124px;
+    width: 124px;
+    border-radius: 50%;
+    border: 2px solid #F1FFFB;
+}
+.card .card-name {
+    font-weight: 600;
+    font-size:20px;
+    color: #012231;
+    letter-spacing: -0.05em;
+}
+.card .card-add-photo {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #C8F6E9;
+    height: 44px;
+    border-radius: 0 0 14px 14px;
+    font-weight: 600;
+    color: #055053;
+}
+
+
+.account-body-card .card-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.card-info p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #667085;
+}
+
+
+/* body > form */
+.account-body-form {
+    flex-basis: 75%;
+    background-color: white;
+    border-radius: 15px;
+    height: auto;
+    margin-bottom: 50px;
+}
+.form-header {
+    width: 100%;
+    padding: 32px 24px 24px 24px;
+    font-weight: 700;
+    font-size: 18px;
+    border-bottom: 1px solid #E4E7EC;
+    margin: 0;
+    color: #012231;
+}
+form {
+    padding: 24px 24px 32px 24px;
+}
+form section {
+    display: flex;
+    gap: 30px;
+}
+form section > div{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+form section > div label{
+    font-size: 14px;
+    font-weight: 500;
+    color: #344054;
+}
+
+form section:nth-child(1),form section:nth-child(2) {
+    margin-bottom: 32px;
+}
+form section > div input[type = "text"]{
+    height: 44px;
+    border-radius: 8px;
+    padding: 10px 14px 10px 14px;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    color: #101828 ;
+    outline: none;
+}
+
+form section div.select,
+form section div.select .select-section,
+form section div.radio {
+    display: flex;
+    align-items: center;
+}
+.form-section-date-birth div.select {
+    gap: 8px;
+    width: 100%;
+}
+.form-section-date-birth .select-section {
+    flex-basis: 33%;
+}
+.form-section-date-birth .select-section svg{
+    margin-left: -30px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.form-section-date-birth .select select {
+    height: 44px;
+    width: 100%;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0 12px;
+    --webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #055053;
+    color: #055053;
+    background-color: transparent;
+    z-index: 2;
+        cursor: pointer;
+        outline: none;
+    }
+    
+    .form-section-date-birth .select select:hover {
+        border: 1px solid #C8F6E9;
+        background-color: #C8F6E9;
+        z-index: 0;
+    }
+    
+    .form-section-date-birth .select select:active,
+    .form-section-date-birth .select select:focus {
+        border: none;
+        border: 1px solid #C8F6E9;
+        background-color: #C8F6E9;
+        z-index: 0;
+}
+.form-section-gender div.radio  {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    height: 44px;
+    color: #012231;
+}
+.form-section-gender div.radio > div  {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.form-section-gender div.radio input[type="radio"] {
+    height: 14px;
+    background-color: #fff;
+    width: 14px;
+    appearance: none;
+    margin: 0;
+    font: inherit;
+    color: #055053;
+    border: 0.15em solid #055053;
+    transition: 100ms border ease-in-out;
+    border-radius: 50%;
+    outline: none;
+}
+    
+    
+.form-section-gender div.radio input[type="radio"]:checked {
+    border: 0.35em solid #055053;
+}
+
+
+.form-section-gender .radio-label {
+    font-size: 16px;
+}
+/* section:last-child {
+    border-bottom: 1px solid black;
+} */
+.account-form-footer {
+    padding: 24px 24px 32px 24px;
+    border-top: 1px solid #E4E7EC;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.account-form-footer button{
+    width: 186px;
+    height: 44px;
+    border: none;
+    outline: none;
+    border-radius: .5em;
+    color: white;
+    background-color: #055053;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+}   
+
+
+@media screen and (max-width: 1250px) {
+    form section {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+}

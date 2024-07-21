@@ -1,0 +1,20 @@
+.canvas-container .canvas-houset,
+.canvas-container p {
+	margin: 0;
+	position: absolute;
+	top: 63%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.canvas-houset {
+	width: 1510px;
+	height: auto;
+}
+
+.canvas-loader-progression {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 30px;
+}

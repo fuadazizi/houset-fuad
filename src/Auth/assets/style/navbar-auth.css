@@ -1,0 +1,11 @@
+.logo-houset {
+	position: absolute;
+    overflow: hidden;
+    z-index: 9999;
+	height: 72px;
+}
+
+.logo-houset img {
+	width: 140px;
+	margin: 10px 0px 0px 40px;
+}

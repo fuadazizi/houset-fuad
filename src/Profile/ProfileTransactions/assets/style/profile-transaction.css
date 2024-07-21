@@ -1,0 +1,204 @@
+.profile-container-body.transaction {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 78px;
+    min-height: 500px;
+}
+.profile-container-body.transaction p,h5 {
+    margin: 0;
+}
+
+.filter-transaction {
+    width: 100%;
+    background-color: #C8F6E9;
+    height: 52px;
+    padding: 2px;
+    display: flex;
+    border-radius: 8px;
+}
+.filter-transaction .filter-button {
+    flex: 1 1 0px;
+    background-color: transparent;
+    border: none;
+    color: #055053;
+    border-radius: 8px;
+    font-weight: 500;
+    position: relative;
+    letter-spacing: -0.084px;
+    font-family: 'Roboto', sans-serif;
+}
+.filter-transaction .filter-button:not(:last-child)::after {
+    content: "";
+    height: 36px;
+    width: 1px;
+    position: absolute;
+    right: -0.5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background-color: #8E8E93;
+}
+.filter-transaction .filter-button.active {
+    background-color: #055053;
+    color: white;
+}
+.transaction-product-card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.transaction-product-card-list .transaction-product-card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+}
+.transaction-product-card .transaction-header {
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding: 0 24px;
+    position: relative;
+} 
+.transaction-header::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: calc(100% - 48px);
+    bottom: -1px;
+    background-color: #D0D5DD;
+}
+.transaction-header .transaction-header-left {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.transaction-header-left .transaction-info-date {
+    font-weight: 700;
+    line-height: 20px;
+}
+.transaction-header-left .transaction-status {
+    height: 24px;
+    width: 83px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.transaction-status.success {
+    background-color: #EEFFDD;
+    color: #389C1A;
+}
+.transaction-status.pending {
+    background-color: #f9f6d8;
+    color: #e6c406;
+}
+.transaction-status.failed {
+    background-color: #FFEFE0;
+    color: #E13B11;
+}
+
+
+.transaction-header .transaction-header-right > div {
+    display: flex;
+    gap: 12px;
+    color: #389C1A;
+}
+
+.transaction-product-card .transaction-products {
+    padding: 0 24px;
+    border-bottom: 1px solid #E4E7EC;
+    background-color: white;
+}
+.transaction-products .transaction-product {
+    padding: 16px 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.transaction-products .transaction-product:not(:last-child) {
+    border-bottom: 1px solid #E4E7EC;
+}
+.transaction-product .transaction-product-item {
+    display: flex;
+    gap: 10px;
+}
+.transaction-product-item .transaction-product-image img{
+    border-radius: 6px;
+    height: 87px;
+    width: 79px;
+    box-shadow: 0px 4px 11px rgba(5, 80, 83, 0.1);
+    object-fit: contain;
+}
+.transaction-product-item .transaction-product-details {
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.transaction-product-details .transaction-product-name {
+    line-height: 19.5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #055053;
+}
+.transaction-product-details .transaction-product-price {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #898989;
+} 
+.transaction-product .transaction-product-total-price p {
+    color: #055053;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.9px;
+}
+
+.transaction-product-card .transaction-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px 24px;
+    background-color: #F1FFFB;
+    border-top: 1px solid #E4E7EC;
+    border-radius: 0 0 4px 4px;
+}
+.transaction-footer .transaction-footer-price {
+    align-self: flex-end;
+    display: flex;
+    gap: 24px;
+}
+.transaction-footer .transaction-footer-price > h5{
+    color: #055053;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.transaction-footer .transaction-footer-action {
+    display: flex;
+    justify-content: space-between;
+}
+.transaction-footer-action .transaction-action-rating {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.transaction-footer-action .transaction-action {
+    display: flex;
+    gap: 30px;
+}
+.transaction-footer-action button{
+    width: 186px;
+    height: 44px;
+}

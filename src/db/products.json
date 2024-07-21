@@ -1,0 +1,242 @@
+[
+	{
+		"id": 1,
+		"type": "Scandinavian",
+		"name": "Kursi Nestudio",
+		"price": 1099000,
+		"priceDiscounted": 1000000,
+		"reviewqty": 200,
+		"variant": [
+			{
+				"color": "#B4CBC5",
+				"image_gallery": [
+					{
+						"location": "image/furnitur/nestudio-1.png"
+					},
+					{
+						"location": "image/furnitur/nestudio-2.png"
+					},
+					{
+						"location": "image/furnitur/nestudio-3.png"
+					},
+					{
+						"location": "image/furnitur/nestudio-4.png"
+					},
+					{
+						"location": "image/furnitur/nestudio-4.png"
+					}
+				],
+				"quantity": 10
+			},
+			{
+				"color": "#8D7867",
+				"image_gallery": [
+					{
+						"location": "image/furnitur/nestudio-1.png"
+					}
+				],
+				"quantity": 5
+			}
+		],
+		"description": "Nestudio Kursi dapat membuat ruangan Anda tampil cantik. Kerangkanya yang terbuat dari kayu serta desain yang unik dan warna cerah akan memberikan aksen pada ruangan tanpa perlu banyak dekorasi. Letakkan kursi ini di dekat jendela atau berhimpitan dengan tembok dan lihat bagaimana ruangan akan terasa lebih hidup! Bantalan dengan busa empuk dan lapisan per membuat Anda tetap nyaman meski telah duduk berjam-jam. Finishing produk menggunakan veneer berbahan natural sehingga mempertahankan keindahan tekstur serat alami. Didesain ergonomis dengan kemiringan sudut (untuk sofa & kursi) dan dimensi yang telah disesuaikan dengan tinggi dan postur tubuh konsumen Asia.Telah melalui proses pengujian dan tersertifikasi sehingga kualitas dan ketahanannya terjamin.",
+		"specification": [
+			{
+				"brand": "Nestudio",
+				"color": "Tosca dan Cokelat",
+				"condition": "Tidak butuh perakitan",
+				"style": "Scandinavian",
+				"material_1": "Kain",
+				"material_2": "Kayu",
+				"material_3": "Kayu, Kain Woven, dan Busa",
+				"type": "Upholstery",
+				"length": 140,
+				"width": 50,
+				"height": 40,
+				"weight": 10
+			}
+		]
+	},
+	{
+		"id": 2,
+		"type": "Scandinavian",
+		"name": "Kursi Stacy",
+		"price": 1099000,
+		"priceDiscounted": 1000000,
+		"reviewqty": 200,
+		"variant": [
+			{
+				"color": "#D5928D",
+				"image_gallery": [
+					{
+						"location": "image/furnitur/kursi.png"
+					}
+				],
+				"quantity": 10
+			},
+			{
+				"color": "#8D94D5",
+				"image_gallery": [
+					{
+						"location": "image/furnitur/kursi.png"
+					}
+				],
+				"quantity": 5
+			}
+		],
+		"description": "Nestudio Kursi dapat membuat ruangan Anda tampil cantik. Kerangkanya yang terbuat dari kayu serta desain yang unik dan warna cerah akan memberikan aksen pada ruangan tanpa perlu banyak dekorasi. Letakkan kursi ini di dekat jendela atau berhimpitan dengan tembok dan lihat bagaimana ruangan akan terasa lebih hidup! Bantalan dengan busa empuk dan lapisan per membuat Anda tetap nyaman meski telah duduk berjam-jam. Finishing produk menggunakan veneer berbahan natural sehingga mempertahankan keindahan tekstur serat alami. Didesain ergonomis dengan kemiringan sudut (untuk sofa & kursi) dan dimensi yang telah disesuaikan dengan tinggi dan postur tubuh konsumen Asia.Telah melalui proses pengujian dan tersertifikasi sehingga kualitas dan ketahanannya terjamin.",
+		"specification": [
+			{
+				"brand": "Nestudio",
+				"color": "Fabric",
+				"condition": "Produk Jadi",
+				"style": "Scandinavian",
+				"material_1": "Kain Fabric",
+				"material_2": "Kayu",
+				"material_3": "Busa",
+				"type": "Upholstery",
+				"length": 140,
+				"width": 50,
+				"height": 40,
+				"weight": 10
+			}
+		]
+	},
+	{
+		"id": 3,
+		"type": "Cozy",
+		"name": "Kursi",
+		"price": 1000000,
+		"priceDiscounted": 700000,
+		"reviewqty": 200,
+		"variant": [
+			{
+				"color": "red",
+				"image_gallery": [
+					{
+						"location": "image/furnitur/kursi.png"
+					}
+				],
+				"quantity": 20
+			}
+		],
+		"description": "Nestudio Kursi dapat membuat ruangan Anda tampil cantik. Kerangkanya yang terbuat dari kayu serta desain yang unik dan warna cerah akan memberikan aksen pada ruangan tanpa perlu banyak dekorasi. Letakkan kursi ini di dekat jendela atau berhimpitan dengan tembok dan lihat bagaimana ruangan akan terasa lebih hidup! Bantalan dengan busa empuk dan lapisan per membuat Anda tetap nyaman meski telah duduk berjam-jam. Finishing produk menggunakan veneer berbahan natural sehingga mempertahankan keindahan tekstur serat alami. Didesain ergonomis dengan kemiringan sudut (untuk sofa & kursi) dan dimensi yang telah disesuaikan dengan tinggi dan postur tubuh konsumen Asia.Telah melalui proses pengujian dan tersertifikasi sehingga kualitas dan ketahanannya terjamin.",
+		"specification": [
+			{
+				"brand": "Nestudio",
+				"color": "Fabric",
+				"condition": "Produk Jadi",
+				"style": "Scandinavian",
+				"material_1": "Kain Fabric",
+				"material_2": "Kayu",
+				"material_3": "Busa",
+				"type": "Upholstery",
+				"length": 140,
+				"width": 50,
+				"height": 40,
+				"weight": 10
+			}
+		]
+	},
+	{
+		"id": 4,
+		"type": "Cozy",
+		"name": "Kursi",
+		"price": 1000000,
+		"priceDiscounted": 700000,
+		"reviewqty": 200,
+		"variant": [
+			{
+				"color": "red",
+				"image_gallery": [
+					{
+						"location": "image/furnitur/kursi.png"
+					}
+				],
+				"quantity": 10
+			},
+			{
+				"color": "indigo",
+				"image_gallery": [
+					{
+						"location": "image/furnitur/kursi.png"
+					}
+				],
+				"quantity": 5
+			}
+		],
+		"description": "Nestudio Kursi dapat membuat ruangan Anda tampil cantik. Kerangkanya yang terbuat dari kayu serta desain yang unik dan warna cerah akan memberikan aksen pada ruangan tanpa perlu banyak dekorasi. Letakkan kursi ini di dekat jendela atau berhimpitan dengan tembok dan lihat bagaimana ruangan akan terasa lebih hidup! Bantalan dengan busa empuk dan lapisan per membuat Anda tetap nyaman meski telah duduk berjam-jam. Finishing produk menggunakan veneer berbahan natural sehingga mempertahankan keindahan tekstur serat alami. Didesain ergonomis dengan kemiringan sudut (untuk sofa & kursi) dan dimensi yang telah disesuaikan dengan tinggi dan postur tubuh konsumen Asia.Telah melalui proses pengujian dan tersertifikasi sehingga kualitas dan ketahanannya terjamin.",
+		"specification": [
+			{
+				"brand": "Nestudio",
+				"color": "Fabric",
+				"condition": "Produk Jadi",
+				"style": "Scandinavian",
+				"material_1": "Kain Fabric",
+				"material_2": "Kayu",
+				"material_3": "Busa",
+				"type": "Upholstery",
+				"length": 140,
+				"width": 50,
+				"height": 40,
+				"weight": 10
+			}
+		]
+	},
+	{
+		"id": 5,
+		"type": "Scandinavian",
+		"name": "Kursi Nestudio",
+		"price": 1099000,
+		"priceDiscounted": 1000000,
+		"reviewqty": 200,
+		"variant": [
+			{
+				"color": "#B4CBC5",
+				"image_gallery": [
+					{
+						"location": "image/furnitur/nestudio-1.png"
+					},
+					{
+						"location": "image/furnitur/nestudio-2.png"
+					},
+					{
+						"location": "image/furnitur/nestudio-3.png"
+					},
+					{
+						"location": "image/furnitur/nestudio-4.png"
+					},
+					{
+						"location": "image/furnitur/nestudio-4.png"
+					}
+				],
+				"quantity": 10
+			},
+			{
+				"color": "#8D7867",
+				"image_gallery": [
+					{
+						"location": "image/furnitur/nestudio-1.png"
+					}
+				],
+				"quantity": 5
+			}
+		],
+		"description": "Nestudio Kursi dapat membuat ruangan Anda tampil cantik. Kerangkanya yang terbuat dari kayu serta desain yang unik dan warna cerah akan memberikan aksen pada ruangan tanpa perlu banyak dekorasi. Letakkan kursi ini di dekat jendela atau berhimpitan dengan tembok dan lihat bagaimana ruangan akan terasa lebih hidup! Bantalan dengan busa empuk dan lapisan per membuat Anda tetap nyaman meski telah duduk berjam-jam. Finishing produk menggunakan veneer berbahan natural sehingga mempertahankan keindahan tekstur serat alami. Didesain ergonomis dengan kemiringan sudut (untuk sofa & kursi) dan dimensi yang telah disesuaikan dengan tinggi dan postur tubuh konsumen Asia.Telah melalui proses pengujian dan tersertifikasi sehingga kualitas dan ketahanannya terjamin.",
+		"specification": [
+			{
+				"brand": "Nestudio",
+				"color": "Tosca dan Cokelat",
+				"condition": "Tidak butuh perakitan",
+				"style": "Scandinavian",
+				"material_1": "Kain",
+				"material_2": "Kayu",
+				"material_3": "Kayu, Kain Woven, dan Busa",
+				"type": "Upholstery",
+				"length": 140,
+				"width": 50,
+				"height": 40,
+				"weight": 10
+			}
+		]
+	}
+]

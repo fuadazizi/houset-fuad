@@ -1,0 +1,46 @@
+.success-modal {
+  background: #FFFFFF;
+  border: 1px solid #055053;
+  border-radius: 10px;
+  width: 480px;
+  height: auto;
+  padding: 24px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+
+  .desc-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+
+    .success-title h2 {
+      max-width: 100%;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #012231;
+    }
+
+    .success-text p {
+      line-height: 28px;
+      margin: 0;
+      text-align: center;
+      color: #667085;
+    }
+  }
+
+  .modal-action {
+    button {
+      width: 200px;
+
+    }
+  }
+}

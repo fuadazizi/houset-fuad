@@ -1,0 +1,40 @@
+.container-form form p {
+	color: #055053;
+}
+
+.container-form .login-alert-errMsg {
+	background-color: rgb(255, 244, 245);
+	color: rgb(128, 11, 11);
+	/* font-weight: bold; */
+	padding: 3px 30px 3px 30px;
+	border-radius: 7px;
+	margin: 15px 15px -10px 15px;
+	width: auto;
+	text-align: center;
+}
+
+.container-form .login-alert-offScreen {
+	
+}
+
+.forget-pass {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	text-decoration: none;
+	color: #055053;
+
+	float: right;
+}
+
+.forget-pass:hover {
+	color: #012231;
+}
+
+/* .google {
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	left: 0px;
+	top: 0px;
+} */

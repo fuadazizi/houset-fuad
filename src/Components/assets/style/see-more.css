@@ -1,0 +1,32 @@
+.see-more-container {
+	/* Make the element inside div 2 column */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	margin: 40px 0px 20px 0px;
+}
+
+.see-more-title {
+	font-weight: 600;
+	margin-bottom: 0;
+	font-size: 24px;
+
+	text-align: left;
+	color: #012231;
+}
+
+.see-more-link {
+	/* untuk lihat semua */
+	font-weight: 600;
+	font-size: 16px;
+	
+	text-align: right;
+	color: #055053;
+	text-decoration: none;
+}
+
+.see-more-link:hover {
+	color: #012231;
+}

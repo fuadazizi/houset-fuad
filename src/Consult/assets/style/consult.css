@@ -1,0 +1,154 @@
+.consult-container {
+    margin-top: 49px;
+}
+
+.consult-banner {
+    background-image: url("../image/banner.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* width: 100%; */
+    height: 494px;
+}
+
+.consult-booking-button button {
+    /* position: absolute; */
+    margin-left: 113px;
+    margin-top: 325px;
+}
+
+/* ===================================================  */
+
+
+.consult-subtitle, .consult-au-detail {
+    /* Make the div in mid */
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 50px; 
+}
+
+.consult-long-detail {
+    width: 1100px;
+    margin-inline: auto;
+}
+
+.consult-subtitle p {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    color: #012231;
+}
+
+.consult-long-detail p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #667085;
+}
+
+/* ===================================================  */
+
+.consult-step-design {
+    height: 289px;
+    background-color: #F1FFFB;
+    width: 100%;
+}
+
+.consult-sd-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #012231;
+    
+    margin-top: 42px;
+}
+
+.consult-sd-part svg {
+    margin-top: 6px;
+}
+
+/* ===================================================  */
+
+.consult-whyus {
+    margin-top: 55px;
+    width: 1200px;
+    margin-inline: auto;
+}
+
+.consult-superiority-card {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+}
+
+.consult-superiority svg {
+    margin-left: 100px;
+    height: 130px;
+}
+
+.consult-superiority h3 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;    
+    color: #151875;
+}
+
+.consult-superiority p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 160% */
+    
+    text-align: center;
+    
+    color: rgba(26, 11, 91, 0.3);
+}
+
+.consult-package-group {
+    width: auto;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+/* Portofolio ===================================================  */
+
+.consult-portofolio-scrollable {
+    padding-right: 0;
+    margin-left: -10px;
+    height: auto;
+}
+
+/* Bottom Banner ================================================= */
+
+.consult-bottomer-container {
+    background-image: url("../image/bottom-banner.png");
+    background-size: cover;
+    height: 258px;
+    margin-top: 50px;
+}
+
+.consult-bottomer-title .col h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #023F47;
+
+    margin-top: 42px;
+}
+
+.consult-bottomer-title .col h2 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    color: #023F47;
+}
+
+.consult-bottomer-button button {
+    /* make the div center */
+    margin: 40px auto 0px auto;
+
+}

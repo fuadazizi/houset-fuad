@@ -1,0 +1,27 @@
+.selection-room-container{
+
+}
+
+.selection-room-title {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+
+	text-align: center;
+
+	color: #012231;
+}
+
+.selection-fav-room {
+	/* horizontal mid of div */
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.selection-scrollable-group {
+	width: 1650px;
+	overflow: auto;
+	margin-bottom: 60px;
+}
+

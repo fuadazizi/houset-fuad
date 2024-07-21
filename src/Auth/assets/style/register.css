@@ -1,0 +1,24 @@
+.bottom-info {
+	font-size: 100px;
+}
+
+.agreement-box {
+	/* margin-top: 12px; */
+	font-size: 14px;
+}
+
+.agreement-box strong {
+	color: #055053;
+}
+
+input[type="submit"] {
+	margin-top: 37px;
+}
+
+.form-footer {
+	top: 20px;
+}
+
+.form-footer a {
+	color: #055053;
+}

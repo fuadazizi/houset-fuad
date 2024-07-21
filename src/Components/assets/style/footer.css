@@ -1,0 +1,59 @@
+footer {
+    clear: both;
+    position: relative;
+    background-color: #055053;
+    color: #ffffff;
+    width: 100%;
+    bottom: 0;
+}
+
+.p2 img {
+    margin: 116px 0px 61px 150px;
+    width: 386px;
+}
+
+.houset-info,
+.houset-helpdesk,
+.houset-subscribe {
+    list-style: none;
+    margin: 48px 0px 48px 0px;
+}
+
+.houset-info p,
+.houset-helpdesk p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    font-feature-settings: "salt" on, "liga" off;
+    color: #ffffff;
+}
+
+.houset-info li,
+.houset-helpdesk li {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    font-feature-settings: "salt" on, "liga" off;
+    color: #d9dbe1;
+
+    margin-bottom: 16px;
+}
+
+.houset-subscribe input {
+    background: #ffffff;
+    opacity: 0.2;
+    border-radius: 8px;
+}
+
+.houset-subscribe input::placeholder {
+    color: #ffffff;
+}
+
+.copyright-section {
+    height: 146px;
+}
+
+.copyright-section p {
+    text-align: center;
+}

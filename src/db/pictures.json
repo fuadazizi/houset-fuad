@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "path": "src/assets/image/dapur-1.png"
+    },
+    {
+        "id": "2",
+        "path": "../assets/image/kamar.png"
+    },
+    {
+        "id": "3",
+        "path": "../assets/image/dapur-2.png"
+    },
+    {
+        "id": "4",
+        "path": "../assets/image/ruang-tamu.png"
+    },
+    {
+        "id": "5",
+        "path": "../assets/image/dapur-1.png"
+    },
+    {
+        "id": "6",
+        "path": "../assets/image/kamar.png"
+    },
+    {
+        "id": "7",
+        "path": "../assets/image/dapur-2.png"
+    },
+    {
+        "id": "8",
+        "path": "../assets/image/ruang-tamu.png"
+    }
+]

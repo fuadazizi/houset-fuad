@@ -1,0 +1,99 @@
+.room-product-description {
+    width: 100%;
+}
+.room-product-description .nav-tabs{
+    margin-bottom: 40px;
+    border: none;
+    display: flex;
+    gap:56px;
+}
+/* .room-product-description .nav-tabs .nav-item{
+} */
+.room-product-description .nav-tabs .nav-item .nav-link.active{
+    border: none;
+    border-bottom: 3px solid #055053;
+    color: #055053;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0;
+    line-height: 32px;
+}
+.room-product-description .nav-tabs .nav-item .nav-link{
+    border: none;
+    /* border-bottom: 2px solid #055053; */
+    color: #98A2B3;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0;
+    line-height: 32px;
+}
+
+.room-product-description .tab-content .tab-content-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-height: 152px;
+
+}
+.room-product-description .tab-content .tab-content-list .room-related-product,
+.room-product-description .tab-content .tab-content-list .room-gallery {
+    display: flex;
+    gap: 30px;
+}
+.room-product-description .tab-content .tab-title{
+    font-size: 24px;
+    color: #2B9692;
+    font-weight: 400;
+}
+.room-product-description .tab-content .tab-content-list.two-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 108px;
+}
+.room-product-description .tab-content .tab-content-list.two-col >div{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.room-product-description .tab-content .tab-content-list.two-col >div > ul {
+    padding: 0;
+}
+
+.room-product-description .tab-content .tab-content-list {
+    .tab-item-detail,.tab-item-specs {
+        ul li{
+            display: flex;
+            .detail-key {
+                flex-basis: 30%;
+                font-size: 18px;
+                line-height: 28px;
+            }
+            .detail-val {
+                flex-basis: 70%;
+            }
+        }
+    }
+    .room-gallery {
+        max-width: 100%;
+        flex-wrap: wrap;
+        & > div {
+            border: 1px solid #055053;
+            background-color: white;
+            height: 160px;
+            width: 160px;
+            min-width: 160px;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            img {
+                border-radius: 30px;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}

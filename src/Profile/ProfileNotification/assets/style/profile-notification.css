@@ -1,0 +1,73 @@
+.profile-container-header.notification {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-container-header.notification .button-read-all {
+    background-color: none;
+    border: none;
+    outline: none;
+    text-decoration: underline;
+    color: #055053;
+    font-weight: 500;
+    font-size: 14px;
+}
+.profile-container-body.notification {
+    flex-direction: column;
+    gap: 0;
+}
+.profile-notification-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: white;
+    padding: 24px;
+
+}
+.profile-notification-card.active {
+    background-color: #DCFFF5;
+}
+.profile-notification-card:not(:last-child) {
+    border-bottom: 1px solid #E4E7EC;
+}
+
+
+
+.profile-notification-card .notification-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notification-header .notification-header-title {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #2B9692;
+}
+.notification-header .notification-header-date {
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 16px;
+    color: #055053;
+}
+.notification-body .notification-message {
+    font-size: 18px;
+    line-height: 28px;
+}
+@media screen and (max-width: 1250px) {
+    .profile-notification-card .notification-header {
+        display: flex;
+        justify-content: none;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .notification-header .notification-header-date {
+        font-weight: 600;
+        line-height: 20px;
+        font-size: 14px;
+        color: #055053;
+    }
+}

@@ -1,0 +1,47 @@
+.transaction-container-main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.transaction-title {
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+    
+    color: #012231;
+}
+
+.cart-table-header th {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    /* Primary/P500 */
+    
+    color: #055053;
+}
+
+.cart-table-body tr {
+    border-bottom: 1px solid #E4E7EC;
+}
+
+.cart-table-body td {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    
+    color: #055053;
+}
+
+
+
+.cart-subtotal {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    
+    
+    color: #055053;
+}

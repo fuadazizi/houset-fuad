@@ -1,0 +1,121 @@
+.product-hero {
+  margin-top: 65px;
+  background-image: url("../image/furniture-header.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: contain;
+  height: 386px;
+  width: 100%;
+}
+
+.product-hero-content p {
+  margin-top: 70px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.product-hero-start button {
+  margin-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.product-selection {
+  margin-top: 42px;
+}
+
+/*============================================== PRODUCT LIST SEARCH - ROW ==================================================== */
+.product-list-search input {
+  width: 1110px;
+}
+
+.product-list-quick {
+  display: flex;
+  align-items: flex-start;
+  padding: 0px;
+  margin: 10px auto 40px auto;
+  width: fit-content;
+}
+
+.product-list-quick button {
+  margin: 0px 12px;
+  align-items: center;
+  padding: 4px 8px;
+  background: #dcfff5;
+  border-radius: 12px;
+  border: none;
+  /* Text */
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  color: #055053;
+}
+
+/* ======================================    PRODUCT LIST CONTENT - ROW    =======================================  */
+.product-list-content {
+  /* display: flex; */
+  /* justify-content: ; */
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-list-sidebar {
+  width: 160px;
+}
+
+.product-list-preview {
+  width: 1200px;
+}
+
+@media screen and (max-width: 1200px) {
+  .product-list-content {
+    width: 1000px;
+  }
+  .product-list-preview {
+    width: 800px;
+  }
+}
+/* 
+@media screen and (max-width: 1200px) {
+
+
+  .product-list-preview {
+    width: 900px;
+  }
+} */
+/* ============================================================ */
+/* .room-modals {
+  margin-top: 172px;
+}
+
+.room-modals-btn {
+	background: none;
+	color: inherit;
+	border: none;
+} */
+/* ==============================================    PAGINATION    ==============================================  */
+.product-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.product-pagination li {
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  border-radius: 35px;
+  width: 30px;
+  height: 30px;
+}
+.product-pagination a {
+  padding-left: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 15px;
+  color: #134bac;
+}/*# sourceMappingURL=product.css.map */

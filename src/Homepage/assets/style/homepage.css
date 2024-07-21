@@ -1,0 +1,149 @@
+.homepage-banner {
+  position: relative;
+  height: 491px;
+  margin-top: 65px;
+  background-color: #E5FACF;
+}
+
+.homepage-banner-text {
+  width: 540px;
+  margin-left: 165px;
+  margin-top: 70px;
+}
+
+.homepage-banner-title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  color: #055053;
+}
+
+.homepage-banner-subtitle1 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #389C1A;
+}
+
+.homepage-banner-subtitle2 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 18px;
+  color: #475467;
+}
+
+.homepage-banner-text button {
+  margin-top: 42px;
+}
+
+.homepage-banner-pict {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.homepage-banner-pict img {
+  width: 450px;
+}
+
+/* .homepage-banner-text button {
+  margin-top: 30px;
+}
+
+.homepage-banner-text a {
+  text-decoration: none;
+} */
+
+/* .section1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+} */
+
+.homepage-design-container {}
+
+.homepage-design-text {
+  margin-top: 50px;
+  margin-left: 165px;
+  width: auto;
+}
+
+.homepage-design-text h2 {
+  left: 165px;
+  margin-bottom: 18px;
+
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  color: #055053;
+}
+
+.homepage-design-text p {
+  width: 521px;
+  margin-bottom: 36px;
+
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #475467;
+}
+
+.homepage-design-pict img {
+  width: 663px;
+  /* margin-right: 100px; */
+  /* make this on the right */
+  float: right;
+}
+/* 
+.home-sub-section2 {
+  overflow: visible;
+  position: relative;
+  width: 100%;
+  height: 289px;
+
+  background: #f1fffb;
+}
+
+.home-sub-section2 p {
+  position: relative;
+  top: 42px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  text-align: center;
+
+  color: #012231;
+} */
+
+.homepage-step-design {
+  background: #F1FFFB;
+  height: 289px;
+}
+
+.homepage-step-design p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #012231;  
+
+  margin-top: 42px;
+  height: 0px;
+}
+
+.homepage-product-lists, .homepage-room-lists {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+.homepage-product-lists {
+  border-bottom: 1px solid #E4E7EC;
+  padding-bottom: 50px;
+}
+
+.homepage-room-lists {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}

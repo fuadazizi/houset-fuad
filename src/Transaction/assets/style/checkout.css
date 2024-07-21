@@ -1,0 +1,54 @@
+.checkout-subtitle {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+
+	color: #667085;
+}
+
+.checkout-loc {
+	margin-top: 32px;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #012231;
+}
+
+.checkout-details {
+	border-top: 2px solid #e4e7ec;
+	border-bottom: 2px solid #e4e7ec;
+	width: max-content;
+	margin: 10px 0px 20px 0px;
+	padding: 20px 0px 10px 0px;
+    width: auto;
+
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+
+	color: #012231;
+}
+
+.checkout-details div {
+	padding: 0px;
+}
+
+.checkout-details-text {
+    width: auto;
+    margin-right: 15px;
+}
+
+.checkout-details-input {
+    width: 500px;
+	align-items: center;
+	padding: 10px 15px;
+	background: #ffffff;
+	border: 1px solid #055053;
+	border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.checkout-details-edit button {
+	margin-right: 0;
+}

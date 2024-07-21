@@ -1,0 +1,235 @@
+/* ----------------- adress sub page container -------------- */
+
+.profile-container-header.address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-container-header .header-button {
+    padding: 8px 16px;
+    background-color: white;
+    height: 36px;
+    border: 1px solid #055053;
+    border-radius: 8px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #055053;
+}
+
+
+.profile-container-body.address {
+    flex-direction: column;    
+}
+
+.profile-container-body .address-list {
+    display: flex;
+    width: 100%;
+    padding: 24px 0;
+    justify-content: space-between;
+}
+.address-list:not(:last-child) {
+    border-bottom: 1px solid #E4E7EC;
+}
+.address-list .address-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.address-list .address-info > div {
+    display: flex;
+    gap: 0.75em;
+}
+
+.address-info label {
+    min-width: 120px;
+    width: 120px;
+    text-align: right;
+    color: #98A2B3;
+}
+
+.address-info h4, .address-info p,label {
+    margin: 0;
+    line-height: 20px;
+}
+.address-info h4{
+    color: #012231;
+    font-weight: 700;
+    font-size: 16px;
+}
+.address-info p {
+    color: #012231;
+}
+.address-info-name {
+    margin-bottom: 10px;
+}
+.address-list .main-address{
+    display: none;
+    padding: 4px 22px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #EEFFDD;
+    color: #389C1A;
+    border-radius: 12px;
+    margin-top: -2px;
+}
+.address-list.main .main-address{
+    display: block;
+}
+.address-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.address-action-edit {
+    padding: 3.5px 16px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #055053;
+    border: 1px solid #055053;
+    background-color: white;
+}
+.address-action-delete {
+    border: none;
+    outline: none;
+    text-decoration: underline;
+    font-size: 10px;
+    line-height: 15px;
+    color: #E13B11;
+    padding: 0;
+    width: auto;
+}
+
+
+/* ----------------------- Add address ----------------------- */
+
+form.add-address {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%,-50%);
+    padding: 32px 24px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 778px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+}
+form.add-address .form-add-address-header {
+    padding: 0 0 24px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #E4E7EC;
+}
+form.add-address .form-add-address-body .label-input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+form.add-address .form-add-address-body {
+    padding: 32px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 42px;
+}
+form.add-address .form-add-address-body .two-col-section {
+    display: flex;
+    gap: 30px;
+}
+form.add-address .form-add-address-body .two-col-section  > div{
+    flex-basis: 50%;
+}
+form.add-address .form-add-address-footer {
+    display: flex;
+    justify-content: center;
+}
+form.add-address .main-address-settings {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.form-add-address-header .form-title {
+    font-weight: 600;
+    font-size: 20px;
+}
+.form-add-address-header .form-close-button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.form-add-address-body .label-input-field {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.form-add-address-body .label-input-field input{
+    padding: 10px 14px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    outline: none;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+}
+.form-add-address-body .label-input-field input:focus{
+    outline: none;
+    border: 1px solid #055053;
+    color: #101828;
+}
+.form-add-address-body .label-input-field button {
+    height: 44px;
+    border: 1px solid #055053;
+    padding: 12px 20.5px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 8px;
+    color: #055053;
+    font-size: 16px;
+}
+.form-add-address-body .label-input-field button.active {
+    background-color: #C8F6E9;
+    border: 1px solid transparent;
+}
+.form-add-address-body .label-input-field .button-label-address {
+    display: flex;
+    gap: 32px;  
+}
+.form-add-address-body .label-input-field textarea{
+    padding: 10px 14px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    outline: none;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    height: 91px;
+    resize: none;
+}
+.form-add-address-body .label-input-field textarea:focus {
+    outline: none;
+    border: 1px solid #055053;
+    color: #101828;
+}
+.form-add-address-body .main-address-settings input[type = "checkbox"] {
+    height: 16px;
+    width: 16px;
+    background-color: #F1FFFB;
+    border: 5px solid #055053;
+}
+.form-add-address-footer .form-save-button {
+    background-color: #055053;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    padding: 12px 64px;
+    border-radius: 8px;
+}

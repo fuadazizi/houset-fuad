@@ -1,0 +1,58 @@
+.error {
+	margin-inline: auto;
+}
+
+.error-image, .error-btn, .error-info {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.error-image {
+    width: 500px;
+}
+
+.error-info {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+	color: #667085;
+
+    width: 685px;
+}
+
+.error-btn {
+    width: fit-content;
+}
+
+@media only screen and (max-width: 700px) {
+    .error-image {
+        width: 400px;
+    }
+
+    .error-info {
+        width: 476px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .error-image {
+        width: 300px;
+    }
+
+    .error-info {
+        width: 276px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .error-image {
+        width: 200px;
+    }
+
+    .error-info {
+        width: 226px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "./static/css/main.450f1d3b.css",
+    "main.js": "./static/js/main.794abeee.js",
+    "static/js/787.c801656d.chunk.js": "./static/js/787.c801656d.chunk.js",
+    "static/media/banner.png": "./static/media/banner.85398763e546bcdd0a98.png",
+    "static/media/nakas-1.fbx": "./static/media/nakas-1.02495bbbb496aac9f4f3.fbx",
+    "static/media/sample-room.png": "./static/media/sample-room.773b4e1904ae6ed86711.png",
+    "static/media/ruang-tamu.png": "./static/media/ruang-tamu.04fe0019610597a7735e.png",
+    "static/media/dapur-1.png": "./static/media/dapur-1.f277b7cbf2595a20969a.png",
+    "static/media/dapur-2.png": "./static/media/dapur-2.feaff1ce76d8ad5da5d9.png",
+    "static/media/bottom-banner.png": "./static/media/bottom-banner.e63124720d39cf05b945.png",
+    "static/media/background-login.png": "./static/media/background-login.f0bf5666b4f8004663b0.png",
+    "static/media/kamar.png": "./static/media/kamar.611cdb744f41ba9727dd.png",
+    "static/media/room.png": "./static/media/room.baee52d58f65b3ce1a6e.png",
+    "static/media/promo-pict.png": "./static/media/promo-pict.fb0f9b01f2904b0b8680.png",
+    "static/media/kursi.png": "./static/media/kursi.1fc47a3b75cf50900ea7.png",
+    "static/media/furniture-header.png": "./static/media/furniture-header.230eb7ba5744648d6df6.png",
+    "static/media/houset-logo.png": "./static/media/houset-logo.50825b5024eb6fd67bb7.png",
+    "static/media/houset-logo2.png": "./static/media/houset-logo2.9fc2893845f411ae3e26.png",
+    "static/media/error-404.png": "./static/media/error-404.ad4587b2fe114e607289.png",
+    "static/media/profile-picture.png": "./static/media/profile-picture.4612a27eeb0cfe13cffc.png",
+    "static/media/revicons.eot": "./static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "./static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "./static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "./index.html",
+    "static/media/eye-icon.svg": "./static/media/eye-icon.a470e48604091445b0c3d734ae0bb489.svg",
+    "main.450f1d3b.css.map": "./static/css/main.450f1d3b.css.map",
+    "main.794abeee.js.map": "./static/js/main.794abeee.js.map",
+    "787.c801656d.chunk.js.map": "./static/js/787.c801656d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.450f1d3b.css",
+    "static/js/main.794abeee.js"
+  ]
+}

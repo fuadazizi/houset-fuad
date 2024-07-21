@@ -1,0 +1,23 @@
+.product-card-container {
+	/* column-count:4; */
+	width: 1200px;
+}
+
+@media screen and (max-width: 1200px) {
+	.product-card-container {
+		/* column-count:2; */
+		width: 900px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.product-card-container {
+		/* column-count:2; */
+		width: 900px;
+	}	
+}
+
+.product-card-item {
+	width: 260px;
+	margin: 0 0 63px 0;
+}
