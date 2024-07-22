@@ -5,6 +5,8 @@ import "./assets/style/item-room-description.css";
 import FurnitureCard from "../Components/FurnitureCard";
 import GetProductDataContext from "../context/ProductAPI";
 
+import products from "../db/products.json";
+
 const ItemDescription = ({ room }) => {
   // function to return "deskripsi" tab
   return (
@@ -71,7 +73,7 @@ const ItemGallery = ({ images }) => {
 
 const ItemRoomRecommendation = ({ linkedId }) => {
   // function to return "Interior Ruangan" tab
-  const {products} = useContext(GetProductDataContext)
+  // const {products} = useContext(GetProductDataContext)
   return (
     <div className="tab-content-list">
       <h4 className="tab-title">Produk yang melengkapi Ruangan</h4>

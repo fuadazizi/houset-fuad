@@ -60,7 +60,7 @@ function MakeThumbnail({ thumbnails, setShowExpand }) {
 }
 
 export default function ProductThumbnail({ images }) {
-    const baseImage = process.env.REACT_APP_URL +'/';
+    const baseImage = '../';
     const [thumbnails, setThumbnails] = useState([]);
 
     useEffect(() => {
