@@ -1,4 +1,3 @@
-import e from "cors";
 import React from "react";
 import { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
